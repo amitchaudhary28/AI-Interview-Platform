@@ -1,6 +1,8 @@
 # 🎯 AI Interview Preparation Platform
 
-An AI-powered full-stack mock interview platform. Practice with an AI interviewer, get instant feedback, solve coding problems, and track your progress.
+A full-stack AI-powered mock interview platform that I built from scratch to master modern web development. Through this project, I learned React.js, Node.js, PostgreSQL, Prisma ORM, JWT authentication, REST APIs, and AI integration using Groq's LLaMA model — all by building something real and useful.
+
+This project taught me how to think like a full-stack developer — from designing database schemas to building responsive UIs, from writing secure APIs to deploying on cloud platforms like Vercel and Render.
 
 ## ✨ Features
 
@@ -92,19 +94,24 @@ FRONTEND_URL=http://localhost:5173
 ## 📸 Screenshots
 
 ### Landing Page
-![Landing Page](screenshots/landing.png)
+![Landing Page](<img width="1898" height="1027" alt="image" src="https://github.com/user-attachments/assets/7983aef8-fefd-4651-8525-a0d291922a8b" />/landingpage.png
+)
 
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](<img width="1919" height="1025" alt="image" src="https://github.com/user-attachments/assets/3ba95bc3-9394-462d-8516-8319573ab047" />/dashboard.png
+)
 
 ### AI Interview Room
-![Interview](screenshots/interview.png)
+![Interview](<img width="1916" height="1027" alt="image" src="https://github.com/user-attachments/assets/34b9fffb-6e92-4010-9b3c-9d1252fe4a74" />
+/interview.png)
 
 ### Resume Scanner with ATS Score
-![Resume](screenshots/resume.png)
+![Resume](<img width="1894" height="1027" alt="image" src="https://github.com/user-attachments/assets/48deea8e-ee07-4408-a7bb-596e8df26d34" />
+/resume.png)
 
 ### Leaderboard
-![Leaderboard](screenshots/leaderboard.png)
+![Leaderboard](<img width="1919" height="1036" alt="image" src="https://github.com/user-attachments/assets/9299f788-94d8-4044-a5dc-7a0c64900e62" />
+/leaderboard.png)
 
 ## 🎯 Phases Built
 
