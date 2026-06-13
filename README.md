@@ -133,6 +133,6 @@ FRONTEND_URL=http://localhost:5173
 
 ## 👨‍💻 Built by
 
-**Amit Chaudhary** — Built for off-campus placement preparation
+**Amit Chaudhary** 
 
 [![GitHub](https://img.shields.io/badge/GitHub-amitchaudhary28-black?style=flat&logo=github)](https://github.com/amitchaudhary28)
