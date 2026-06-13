@@ -1,0 +1,74 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String    @id @default(cuid())
+  name          String
+  email         String    @unique
+  password      String
+  createdAt     DateTime  @default(now())
+
+  // ── New streak & stats fields ──
+  streak        Int       @default(0)
+  lastActiveDate DateTime?
+  totalSessions Int       @default(0)
+  totalScore    Float     @default(0)
+  avgScore      Float     @default(0)
+  badge         String    @default("Beginner")
+
+  sessions      Session[]
+  resumes       Resume[]
+}
+
+model Question {
+  id         String   @id @default(uuid())
+  topic      String
+  type       String
+  difficulty String
+  question   String
+  answer     String
+  company    String?
+  createdAt  DateTime @default(now())
+  answers    Answer[]
+}
+
+model Session {
+  id        String   @id @default(uuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  topic     String
+  company   String?
+  score     Int      @default(0)
+  totalQ    Int      @default(0)
+  completed Boolean  @default(false)
+  createdAt DateTime @default(now())
+  answers   Answer[]
+}
+
+model Answer {
+  id         String   @id @default(uuid())
+  sessionId  String
+  session    Session  @relation(fields: [sessionId], references: [id])
+  questionId String
+  question   Question @relation(fields: [questionId], references: [id])
+  userAnswer String
+  aiFeedback String?
+  aiScore    Int      @default(0)
+  createdAt  DateTime @default(now())
+}
+
+model Resume {
+  id             String   @id @default(cuid())
+  userId         String
+  user           User     @relation(fields: [userId], references: [id])
+  fileName       String
+  extractedText  String   @db.Text
+  analysisResult Json
+  createdAt      DateTime @default(now())
+}
