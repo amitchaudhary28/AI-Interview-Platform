@@ -2,10 +2,6 @@
 
 An AI-powered full-stack mock interview platform. Practice with an AI interviewer, get instant feedback, solve coding problems, and track your progress.
 
-## 🚀 Live Demo
-- **Frontend:** Coming soon...
-- **Backend:** Coming soon...
-
 ## ✨ Features
 
 - 🎤 **AI Mock Interviews** — AI asks questions, evaluates answers, gives real feedback
