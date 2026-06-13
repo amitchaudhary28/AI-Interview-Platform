@@ -1,6 +1,6 @@
 # 🎯 AI Interview Preparation Platform
 
-An AI-powered full-stack mock interview platform built for off-campus placement preparation. Practice with an AI interviewer, get instant feedback, solve coding problems, and track your progress.
+An AI-powered full-stack mock interview platform. Practice with an AI interviewer, get instant feedback, solve coding problems, and track your progress.
 
 ## 🚀 Live Demo
 - **Frontend:** Coming soon...
