@@ -3,7 +3,6 @@
 An AI-powered full-stack mock interview platform built for off-campus placement preparation. Practice with an AI interviewer, get instant feedback, solve coding problems, and track your progress.
 
 ## 🚀 Live Demo
-## 🚀 Live Demo
 - **Frontend:** Coming soon...
 - **Backend:** Coming soon...
 
